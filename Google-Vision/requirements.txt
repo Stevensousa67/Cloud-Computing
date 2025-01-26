@@ -1,0 +1,7 @@
+Flask==3.0.3
+google-cloud-vision==3.8.0
+google-cloud-storage==2.18.2
+Pillow==11.0.0
+opencv-python==4.10.0.84
+numpy==2.1.3
+

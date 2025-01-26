@@ -1,0 +1,7 @@
+runtime: python312
+
+env_variables:
+  CLOUD_SQL_USERNAME: steven
+  CLOUD_SQL_PASSWORD: BSU123
+  CLOUD_SQL_DATABASE_NAME: class
+  CLOUD_SQL_CONNECTION_NAME: bridgewater-state-university:northamerica-northeast1:class-db

@@ -1,0 +1,13 @@
+runtime: python312
+
+# Optional settings
+env: standard  # Use the standard environment for App Engine
+
+handlers:
+  - url: /.*
+    script: auto  # Routes all URLs to your application
+
+# Environment Variables
+env_variables:
+  SECRET_KEY: "2173e273f57129fb8221722120b300ea"
+  CLIENT_SECRET_FILE: "Email-Flask/client_secret.json"

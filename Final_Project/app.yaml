@@ -1,0 +1,6 @@
+runtime: python311
+instance_class: F2
+entrypoint: gunicorn -b :$PORT main:app
+env_variables:
+  BUCKET_NAME: "comp399_final_project"
+  GOOGLE_CLOUD_PROJECT: "bridgewater-state-university"
